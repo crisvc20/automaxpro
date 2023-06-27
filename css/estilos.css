@@ -1,0 +1,186 @@
+* {
+	margin: 0;
+	border: 0;
+    padding: 0;
+}
+body {
+  background-color: #fc6625;
+  font-family: 'Arial';
+}
+#contenedor {
+	width: 80%;
+	margin: 0px auto;
+}
+
+/*  header  */
+header {
+	position: relative;
+	background-color: beige;
+    /*border: 1px solid red;*/
+}
+
+header #servicios2Logo{
+	width: 150px; 
+	position: absolute; 
+	padding: 10px 10px;
+}
+
+header #servicios2TextoPortada{
+	position: absolute;
+	margin-left: 100px;
+	margin-top: 90px;
+}
+
+header #servicios2Subtitulo{
+	padding-bottom: 20px; 
+	color: #fc6625; 
+	font-size: 20pt;
+}
+
+header #servicios2Titulo{
+	font-size: 40pt; 
+	font-weight: bold; 
+	color: black;
+}
+
+
+header img {
+	width: 100%;
+	vertical-align: bottom;
+}
+
+/*  nav  */
+nav {
+  background-color: white;
+  text-align: center;
+}
+nav a {
+  background-color: white;
+  margin: 0px;
+	padding: 30px 20px 10px;
+	text-decoration: none;
+	color: #3f3434;
+	display: inline-block;
+}
+
+main {
+	display: flex;
+}
+
+/*  section  */
+section {
+  width: 100%;
+	padding: 5px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	background-color: white;
+}
+section figure {
+	width: 30%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	/*border: 1px solid blue;*/
+}
+section figure img {
+	width: 70%;
+	margin: 10px auto;
+	display: block;
+    border-radius: 20px;
+}
+section figure figcaption {
+	margin: 10px 15% 10px;
+	
+}
+section > #intro{
+  margin: 40px 35% 30px 6%;
+  
+}
+
+
+/*****  inicio footer  *****/
+
+footer {
+	text-align: center;
+	background-color: #605d5d;
+}
+
+.containerfootertop{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.footerleft{
+	width: 25%;
+	border-bottom: 1px solid white;
+}
+
+.footercenter{
+	width: 40%;
+	padding: 40px 0px 0px;
+}
+
+.footerright{
+	width: 25%;
+	border-bottom: 1px solid white;
+}
+
+.footercenter img{
+	height: 30px;
+	padding: 0px 20px;
+}
+
+footer p {
+	margin-bottom: 10px;
+	color: white;
+}
+
+.containerfooterbottom{
+	padding: 30px 0;
+}
+
+footer #imgFooter{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 150px;
+}
+
+/*****  fin footer  *****/
+
+
+section figure img:hover{
+    border-radius: 20px;
+}
+
+
+
+nav a:hover{
+
+    /*background-color: #fc6625;*/
+    color: #fc6625;
+
+}
+
+
+
+aside a:hover{
+
+
+
+    color: blue;
+
+}
+
+
+
+.imagen:hover{
+
+    transition: transform 0.5s;
+
+    transform: scale(1.2);
+
+}
