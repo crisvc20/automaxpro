@@ -1,0 +1,785 @@
+* {
+	margin: 0;
+	border: 0;
+    padding: 0;
+}
+body {
+  background-color: #fc6625;
+  font-family: 'Arial';
+}
+#contenedor {
+	width: 80%;
+	margin: 0px auto;
+}
+
+header{
+	position: relative;
+	background-color: #d9d7d7;
+}
+/*****  header  *****/
+
+/* header-home */
+.header-home #servicios2Logo{
+	width: 150px; 
+	position: absolute; 
+	padding: 10px 10px;
+}
+.header-home img {
+	width: 100%;
+	vertical-align: bottom;
+}
+
+.home-textoPortada{
+	position: absolute;
+	top: 50px;
+	font-size: 40pt;
+	width: 45%;
+	margin-left: 70px;
+	
+	
+	
+  }
+
+  .home-textoPortada p{
+	color: rgb(255, 255, 255);
+	text-shadow: 5px 5px 3px rgba(0, 0, 0, 1.5);
+	font-weight: bold;
+	z-index: 1;
+  }
+
+
+/* fin header-home */
+
+/* header-mantemiento */
+
+
+.header-mantenimiento #servicios2Logo{
+	width: 150px; 
+	position: absolute; 
+	padding: 10px 10px;
+}
+
+.header-mantenimiento #servicios2TextoPortada{
+	position: absolute;
+	margin-left: 100px;
+	margin-top: 90px;
+}
+
+.header-mantenimiento #servicios2Subtitulo{
+	padding-bottom: 20px; 
+	color: #fc6625; 
+	font-size: 20pt;
+}
+
+.header-mantenimiento #servicios2Titulo{
+	font-size: 40pt; 
+	font-weight: bold; 
+	color: black;
+}
+
+.header-mantenimiento img {
+	width: 100%;
+	vertical-align: bottom;
+}
+/* fin header-mantenimiento */
+
+/* header contactenos */
+
+.header-contactenos{
+	position: relative;
+  }
+  
+  .header-contactenos #servicios2Logo{
+	width: 100px;
+	position: absolute;
+	padding: 10px 10px;
+  }
+  
+  .header-contactenos img {
+	width: 100%;
+	vertical-align: bottom;
+  }
+
+/* fin header contactenos */
+
+.section-contactenos {
+    width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	background-color: white;
+	padding-bottom: 30px;
+}
+
+#contactenos-texto{
+	
+	background-color: rgb(237, 235, 235);
+	padding: 20px;
+}
+
+#contactenos-texto h2{
+	color: #fc6625;
+}
+
+#contactenos-texto h2, p{
+	padding: 8px;
+}
+
+main #contactenos-titulo{
+	text-align: center;
+	margin: 0px auto;
+	padding: 60px 0px 30px;
+	width: 60%;
+	
+}
+
+
+#contactenos-mapa{
+	border: 5px solid rgb(164, 163, 163);
+}
+
+.map-container {
+	margin-bottom: 20px;
+	border-radius: 4px;
+}
+  
+ 
+
+/* section contactenos */
+
+/* section trabaja */
+
+.section-trabaja {
+    width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	background-color: white;
+	padding-bottom: 30px;
+}
+
+#trabaja-form{
+	
+	background-color: rgb(240, 236, 236);
+	padding: 20px;
+}
+
+fieldset {
+    margin-bottom: 30px;
+    border: none;
+  }
+  
+  legend {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+  }
+
+  .form-trabaja {
+	width: 100%;
+    max-width: 400px;
+    margin: 10px auto;
+    padding: 30px 20px;
+    background: #f4f7f8;
+    border-radius: 8px;
+  }
+.form-trabaja input[type="text"]{
+	background-color: white;
+}  
+
+.form-trabaja input[type="email"]{
+	background-color: white;
+}  
+
+#trabaja-form{
+	background-color: white;
+}
+
+main #trabaja-titulo{
+	text-align: center;
+	margin: 0px auto;
+	padding: 60px 0px 30px;
+	width: 60%;
+	
+}
+
+#trabaja-imagen img{
+	padding-top: 80px;
+	width: 600px;
+}
+
+
+/* fin trabaja */
+
+
+/* fin section contactenos */
+
+
+
+/* header transfiere */
+
+.header-transfiere #servicios2Logo{
+	width: 150px; 
+	position: absolute; 
+	padding: 10px 10px;
+}
+
+.header-transfiere img {
+	width: 100%;
+	vertical-align: bottom;
+}
+
+.formulario-transfiere{
+	
+	position: absolute; 
+	top: 0;
+	right: 10px;
+	padding: 0px 10px;
+	margin: 0;
+	/*border: 1px solid red;*/
+}
+
+
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select {
+    background: rgba(255,255,255,0.1);
+    border: none;
+    font-size: 16px;
+    height: auto;
+    margin: 0;
+    outline: 0;
+    padding: 10px;
+    width: 95%;
+    background-color: #e8eeef;
+    color: #8a97a0;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 15px 39px 10px 39px;
+    color: #FFF;
+    background-color: #fc6625;
+    font-size: 18px;
+    text-align: center;
+    font-style: normal;
+    border-radius: 5px;
+    width: 100%;
+    border: 1px solid #918c8c;
+    border-width: 1px 1px 3px;
+    box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+    margin-bottom: 10px;
+  }
+
+  fieldset {
+    margin-bottom: 30px;
+    border: none;
+  }
+  
+  legend {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+  }
+
+  .form-transfiere {
+	width: 100%;
+    max-width: 250px;
+    margin: 10px auto;
+    padding: 5px 20px;
+    background: #f4f7f8;
+    border-radius: 8px;
+  }
+
+  .transfiere-textoPortada{
+	position: absolute;
+	top: 80px;
+	font-size: 40pt;
+	width: 50%;
+	color: white;
+	margin-left: 30px;
+	text-shadow: 5px 5px 5px rgba(0, 0, 0, 1.5);
+	font-weight: bold;
+  }
+
+ 
+/* fin header transfiere */ 
+
+/**** fin header ****/
+
+
+/***  nav  ***/
+nav {
+  	background-color: white;
+  	text-align: center;
+}
+
+nav a {
+  	background-color: white;
+ 	margin: 0px;
+	padding: 30px 20px 10px;
+	text-decoration: none;
+	color: #3f3434;
+	display: inline-block;
+}
+
+nav a:hover{
+    background-color: #fc6625;
+    color: white !important;
+}
+
+/***** fin nav ******/
+
+main {
+	
+	background-color: white;
+	width: 100%;
+}
+
+.ventas{
+	display: flex;
+}
+
+/*****  section  ******/
+
+
+/* section-mantenimiento */
+
+.section-mantenimiento {
+    width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	background-color: white;
+}
+
+.section-mantenimiento figure {
+	width: 30%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	/*border: 1px solid blue;*/
+}
+.section-mantenimiento figure img {
+	width: 70%;
+	margin: 10px auto;
+	display: block;
+    border-radius: 20px;
+}
+.section-mantenimiento figure figcaption {
+	margin: 10px 15% 10px;
+	
+}
+.section-mantenimiento > #intro{
+  margin: 40px 35% 30px 6%;
+  
+}
+
+.section-mantenimiento figure img:hover{
+    border-radius: 20px;
+}
+/* fin section mantenimiento */
+
+/* section home */
+
+.section-home {
+    width: 100%;
+	padding-bottom: 5px;
+	text-align: center;
+	background-color: white;
+}
+
+#intro-home{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	width: 60%;
+	margin: 0px auto;
+}
+
+.home-buscar{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	width: 100%;
+
+}
+
+.home-buscar button {
+	width: 30%;
+
+	margin-top: 30px;
+	margin-bottom: 30px;
+	/*display: block;*/
+    border-radius: 20px;
+	height: 60px;
+	font-size: 20pt;
+	
+}
+
+.home-buscar a{
+	text-decoration: none;
+	color: white;
+}
+
+.home-transfiere{
+
+	text-align: center;
+	width: 30%;
+	margin: 10px auto;
+	
+}
+
+.home-transfiere button{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	border-radius: 20px;
+	height: 60px;
+	font-size: 20pt;
+	
+}
+
+.home-transfiere a{
+	text-decoration: none;
+	color: white;
+}
+
+/* fin section home */
+
+/* section transfiere */
+
+.section-transfiere {
+    width: 100%;
+	padding-bottom: 5px;
+	text-align: center;
+	background-color: white;
+	
+}
+
+#intro-transfiere{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	width: 60%;
+	margin: 0px auto;
+}
+
+.section-transfiere figure {
+	width: 30%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	/*border: 1px solid blue;*/
+}
+
+.section-transfiere figure img {
+	width: 30%;
+	margin: 10px auto;
+	display: block;
+    border-radius: 20px;
+}
+.section-transfiere figure figcaption {
+	margin: 10px 15% 10px;
+	
+}
+
+.figure-transfiere{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	width: 100%;
+
+}
+
+
+.section-transfiere-listado{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	width: 100%;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	
+}
+.img-listado{
+	
+	width: 40%;
+}
+
+.img-listado img{
+	width: 100%;
+	margin: 10px auto;
+	display: block;
+}
+
+.items-listado{
+	text-align: left;
+	width: 40%;
+}
+
+.items-listado h1{
+	padding: 20px 0;
+}
+
+.items-listado li{
+	padding: 10px 0;
+}
+
+/* fin section transfiere */
+
+/* section nosotros */
+
+.section-nosotros {
+    width: 100%;
+	padding-bottom: 5px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	background-color: white;
+	
+}
+
+.section-nosotros figure {
+	width: 30%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	/*border: 1px solid blue;*/
+	text-align: center;
+}
+.section-nosotros figure img {
+	width: 30%;
+	margin: 10px auto;
+	display: block;
+    
+}
+.section-nosotros figure figcaption {
+	margin: 5px 15% 10px;
+	
+}
+main #nosotros-titulo{
+  text-align: center;
+  margin: 0px auto;
+  padding: 60px 0px 30px;
+  width: 60%;
+  
+}
+
+
+/* fin section nosotros */
+
+/***** fin section *****/
+
+/* Nuevos general */
+
+.nuevos-header #servicios2Logo{
+	width: 150px; 
+	position: absolute; 
+	padding: 10px 10px;
+}
+
+.nuevos-header img{
+    width: 100%;
+	vertical-align: bottom;
+}
+.nuevos-buscar{
+	position: absolute;
+	padding-top: 5px;
+	right: 20px;
+    z-index: 2;
+}
+.nuevos-buscar input{
+	border-radius: 5px;
+}
+.nuevos-grupoimagenes{   
+    
+    height: 43.75px; 
+    display: flex;
+    background-color: #ffffff;
+    justify-content: space-around;
+	padding-top: 20px;
+	padding-bottom: 20px;
+   
+}
+
+@keyframes animate
+{
+    0%,100%{
+        color: #fff;
+        filter: blur(1px);
+        text-shadow: 0 0 1px #00b3ff,0 0 2px #00b3ff,0 0 3px #00b3ff,0 0 4px #00b3ff,0 0 5px #00b3ff,0 0 6px #00b3ff,0 0 7px #00b3ff,0 0 8px #00b3ff,0 0 9px #00b3ff,0 0 10px #00b3ff
+    }
+    5%,95%{
+        color: #111;
+        filter: blur(1px);
+        text-shadow: none;
+    }
+}
+.section-nuevos{
+    background-color: #ffffff;
+    width: 60%;
+    padding: 5px;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.section-nuevos figure{
+    width: 30%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.section-nuevos figure img{
+    width: 60%;
+    height: 45%;
+    margin: 10px auto;
+    display: block;
+    transition: 0.5s;
+    object-fit: cover;
+}
+.section-nuevos figure img:hover{
+    transform: scale(1.5);
+}
+.section-nuevos figure figcaption{
+    margin: 10px;
+    text-align: center;
+}
+.section-nuevos figure figcaption p{ 
+    text-align: center;
+}
+
+aside{
+    width: 15%;
+    padding: 45px;
+    background-color: #d7d6d6;
+
+}
+aside a{
+    text-decoration: none;
+    padding: 5px 0px;
+    display: block;
+}
+h2{
+    margin-top: 15px;
+}
+
+
+aside video{
+    width: 100%;
+    margin: 20px auto;
+    display: block;
+    position: relative;
+}
+aside p{
+    text-align: justify;
+}
+
+h1{
+    color: #111;
+    font-size: 2em;
+    margin-left: 2%;
+}
+h1 span{
+    display: table-cell;
+    margin: 0;
+    padding: 0;
+    animation: animate 2.2s linear infinite;
+}
+h1 span:mth-child(1){
+    animation-delay: 0%;
+}
+h1 span:mth-child(2){
+    animation-delay: 0.25%;
+}
+h1 span:mth-child(3){
+    animation-delay: 0.5%;
+}
+h1 span:mth-child(4){
+    animation-delay: 0.75%;
+}
+h1 span:mth-child(5){
+    animation-delay: 0.25%;
+}
+h1 span:mth-child(6){
+    animation-delay: 1%;
+}
+h1 span:mth-child(7){
+    animation-delay: 1.25%;
+}
+h1 span:mth-child(8){
+    animation-delay: 1.5%;
+}
+h1 span:mth-child(9){
+    animation-delay: 1.75%;
+}
+h1 span:mth-child(10){
+    animation-delay: 3%;
+}
+/* fin nuevos general*/
+
+/*****  footer  *****/
+
+footer {
+	text-align: center;
+	background-color: #605d5d;
+}
+
+.containerfootertop{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.footerleft{
+	width: 25%;
+	border-bottom: 1px solid white;
+}
+
+.footercenter{
+	width: 40%;
+	padding: 40px 0px 0px;
+}
+
+.footerright{
+	width: 25%;
+	border-bottom: 1px solid white;
+}
+
+.footercenter img{
+	height: 30px;
+	padding: 0px 20px;
+}
+
+footer p {
+	margin-bottom: 10px;
+	color: white;
+}
+
+.containerfooterbottom{
+	padding: 30px 0;
+}
+
+footer #imgFooter{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 150px;
+}
+
+/*****  fin footer  *****/
+
+
+
+
+
+
+
+
+.imagen:hover{
+    transition: transform 0.5s;
+    transform: scale(1.2);
+}
